@@ -1,0 +1,14 @@
+services:
+  ghostledger:
+    build: .
+    network_mode: none
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    volumes:
+      - ./artifacts:/app/artifacts
+    command: ["demo", "--output", "/app/artifacts"]
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL

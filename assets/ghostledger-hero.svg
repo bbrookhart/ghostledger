@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">GHOSTLEDGER</title>
+  <desc id="desc">A dark technical banner showing a luminous evidence ledger separating visible task success from protected mission integrity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061019"/>
+      <stop offset="0.5" stop-color="#0a1c28"/>
+      <stop offset="1" stop-color="#061019"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ec6d5"/>
+      <stop offset="1" stop-color="#8cf7ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#183848" stroke-width="1" opacity=".35"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+  <g opacity=".6">
+    <path d="M66 74h170M66 92h118M964 326h170M1016 344h118" stroke="#45d5e5" stroke-width="2"/>
+    <circle cx="66" cy="74" r="4" fill="#77edf7"/><circle cx="1134" cy="344" r="4" fill="#77edf7"/>
+  </g>
+  <g transform="translate(600 100)" filter="url(#glow)">
+    <path d="M-64 0h128l20 22v98l-20 22H-64l-20-22V22z" fill="none" stroke="url(#cyan)" stroke-width="3"/>
+    <path d="M-47 35h94M-47 63h94M-47 91h58" stroke="#8cf7ff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M27 88l13 13 26-31" fill="none" stroke="#8cf7ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="600" y="292" text-anchor="middle" fill="#eaf8fb" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="13">GHOSTLEDGER</text>
+  <text x="600" y="338" text-anchor="middle" fill="#80eaf4" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="5">THE TASK PASSED. THE MISSION FAILED.</text>
+  <text x="600" y="378" text-anchor="middle" fill="#7f9ca8" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2">STATE-GROUNDED SABOTAGE EVALUATION • TECHNICAL PREVIEW</text>
+</svg>

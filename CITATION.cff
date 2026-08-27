@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use GHOSTLEDGER, please cite this software."
+title: "GHOSTLEDGER: Stealthy Agent Sabotage Evaluation"
+type: software
+version: 0.1.0
+date-released: 2026-08-27
+authors:
+  - family-names: Brookhart
+    given-names: Brian
+repository-code: "https://github.com/bbrookhart/ghostledger"
+url: "https://github.com/bbrookhart/ghostledger"
+license: MIT
+keywords:
+  - agentic AI security
+  - sabotage evaluation
+  - monitorability
+  - AI red teaming

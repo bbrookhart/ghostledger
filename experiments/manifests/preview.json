@@ -1,0 +1,10 @@
+{
+  "name": "preview-baseline-vs-layered",
+  "scenarios": ["all"],
+  "conditions": ["benign", "adversarial"],
+  "control_sets": {
+    "baseline": "baseline",
+    "layered": "layered"
+  },
+  "seeds": [0]
+}
